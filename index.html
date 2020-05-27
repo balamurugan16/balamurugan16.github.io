@@ -6,7 +6,56 @@
      <title>JavaScript DrumKit</title>
      <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="container">
+     <h1>Online DrumKit</h1>
+     <div class="allKeys">
+         <div data-key="65" class="key">
+              <kbd>A</kbd>
+              <span>boom</span>
+          </div>
+         <div data-key="83" class="key">
+              <kbd>S</kbd>
+              <span>clap</span>
+          </div>
+         <div data-key="68" class="key">
+              <kbd>D</kbd>
+              <span>hihat</span>
+          </div>
+         <div data-key="70" class="key">
+              <kbd>F</kbd>
+              <span>kick</span>
+          </div>
+         <div data-key="71" class="key">
+              <kbd>G</kbd>
+              <span>openhat</span>
+          </div>
+         <div data-key="72" class="key">
+              <kbd>H</kbd>
+              <span>ride</span>
+          </div>
+         <div data-key="74" class="key">
+              <kbd>J</kbd>
+              <span>snare</span>
+          </div>
+         <div data-key="75" class="key">
+              <kbd>K</kbd>
+              <span>tink</span>
+          </div>
+         <div data-key="76" class="key">
+              <kbd>L</kbd>
+              <span>tom</span>
+          </div>
+     </div>
+     <audio src="./sounds/boom.wav" datakey="65"></audio>
+     <audio src="./sounds/clap.wav" datakey="83"></audio>
+     <audio src="./sounds/hihat.wav" datakey="68"></audio>
+     <audio src="./sounds/kick.wav" datakey="70"></audio>
+     <audio src="./sounds/openhat.wav" datakey="71"></audio>
+     <audio src="./sounds/ride.wav" datakey="72"></audio>
+     <audio src="./sounds/snare.wav" datakey="74"></audio>
+     <audio src="./sounds/tink.wav" datakey="75"></audio>
+     <audio src="./sounds/tom.wav" datakey="76"></audio>
+     <p>Press the Key to play the respective sound</p>
      <script src="script.js"></script>
 </body>
 </html>
